@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:92:29: missing argument list for method apply in object List[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m            val stack = List[Double][0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:93:128: missing argument list for method apply in class GenMapFactory[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m            instructionList.foldLeft [(List[Double], Map[String,Double])] ((Nil,Map.empty)) (emulateSingleInstruction(stack,Map[String,Double], instructionList))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:93:145: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m required: edu.colorado.csci3155.project1.StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            instructionList.foldLeft [(List[Double], Map[String,Double])] ((Nil,Map.empty)) (emulateSingleInstruction(stack,Map[String,Double], instructionList))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 18, 2021, 7:57:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

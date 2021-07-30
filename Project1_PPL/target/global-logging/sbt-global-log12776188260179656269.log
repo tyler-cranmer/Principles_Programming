@@ -1,0 +1,39 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/tylercranmer/Documents/College/Principles_Programming/csci3155_s20_project1/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStackMachineTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PushI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- StoreI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- StoreI test2 exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PopI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LoadI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AddI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SubI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MultI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- DivI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ExpI test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 106 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Jun 20, 2021, 4:24:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
