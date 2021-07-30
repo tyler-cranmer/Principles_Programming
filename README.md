@@ -14,5 +14,15 @@ DISCLAIMER: Do NOT use work in any dishonest way. This repository was created to
 - Type System: Type checking and type inference.
 - Objects and Inheritance. Abstract classes and Traits.
 - Concurrency.
+- Context-free grammers
+- Recursion and higher-order functions
+- Regular Expressions, proofs about program properties, recursion and induction.
 
+## Specific Outcomes
+
+- Learn new programming languages quickly
+- Choose the language for a programming task
+-  Write pure functional code
+- Write new languages or APIs with clear semantics
+- Read and write context-free grammars and parsers
 
